@@ -20,7 +20,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="QR코드 읽기"
+        android:text="@string/read"
         android:id="@+id/read"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
@@ -42,13 +42,14 @@
             android:id="@+id/imageView"
             android:layout_centerVertical="true"
             android:layout_centerHorizontal="true"
-            android:src="@drawable/img02_06_28" />
+            android:src="@drawable/img02_06_28"
+            android:contentDescription="@string/description_university" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="QR 코드 리더기"
+            android:text="@string/toolbar_read"
             android:id="@+id/textView"
             android:layout_below="@+id/imageView"
             android:layout_centerHorizontal="true"
@@ -58,7 +59,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="글로벌IT경영전공"
+            android:text="@string/majo"
             android:id="@+id/textView2"
             android:layout_below="@+id/textView"
             android:layout_centerHorizontal="true" />

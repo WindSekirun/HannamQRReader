@@ -1,6 +1,8 @@
 <resources>
     <string name="app_name">HNUReader</string>
-
-    <string name="hello_world">Hello world!</string>
-    <string name="action_settings">Settings</string>
+    <string name="read">QR코드 읽기</string>
+    <string name="toolbar_read">QR코드 리더기</string>
+    <string name="majo">글로벌IT경영전공</string>
+    <string name="description_university">Hannam University Logo</string>
+    <string name="toolbarlogo">toolbarlogo</string>
 </resources>

@@ -9,7 +9,6 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
-import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.Toast;
@@ -21,9 +20,9 @@ import com.dlazaro66.qrcodereaderview.QRCodeReaderView;
  * Class: CaptureActivity
  * Created by WindSekirun on 15. 5. 15..
  */
+@SuppressWarnings("ConstantConditions")
 public class CaptureActivity extends AppCompatActivity implements QRCodeReaderView.OnQRCodeReadListener {
-    public QRCodeReaderView qrview;
-    public Toolbar toolbar;
+    private QRCodeReaderView qrview;
 
     @TargetApi(Build.VERSION_CODES.LOLLIPOP)
     @Override
@@ -36,9 +35,9 @@ public class CaptureActivity extends AppCompatActivity implements QRCodeReaderVi
             w.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
             w.setStatusBarColor(0xff455a64);
         }
-        toolbar = (Toolbar) findViewById(R.id.toolbar);
-        View v = getLayoutInflater().inflate(R.layout.toolbar, null, false);
-        toolbar.addView(v);
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        toolbar.setTitle("QR코드 인식");
+        toolbar.setTitleTextColor(0xffffffff);
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         qrview = (QRCodeReaderView) findViewById(R.id.qrdecoderview);
