@@ -9,3 +9,7 @@ Based on [QRReader](https://github.com/WindSekirun/QRReader) from [WindSekirun](
 ## 라이센스
 Licensed by MIT License, Copyright 2015 WindSekirun. 
 [라이센스 전문](https://github.com/WindSekirun/HannamQRReader/blob/master/License.md)
+
+## APK 릴리즈
+
+[다운로드](https://github.com/WindSekirun/HannamQRReader/releases)
