@@ -49,6 +49,7 @@ public class CaptureActivity extends AppCompatActivity implements QRCodeReaderVi
         Intent i = new Intent(Intent.ACTION_VIEW);
         i.setData(Uri.parse(s));
         startActivity(i);
+        finish();
     }
 
     @Override
