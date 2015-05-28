@@ -10,6 +10,8 @@ Based on [QRReader](https://github.com/WindSekirun/QRReader) from [WindSekirun](
 * 외부 라이브러리 사용 고지
 * 오픈소스 고지
 
+<strike>하지만 일하기 싫다</strike>
+
 ## 사용한 라이브러리
 * [QRCodeReaderView by dlazaro66](https://github.com/dlazaro66/QRCodeReaderView)
 
