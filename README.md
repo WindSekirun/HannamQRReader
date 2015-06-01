@@ -1,5 +1,4 @@
 # HannamQRReader
-고교체험단에서 고등학생들에게 대학교의 저력을 자랑하고자(?) 20분안에 발로 만든 코드.
 
 Based on [QRReader](https://github.com/WindSekirun/QRReader) from [WindSekirun](http://github.com/WindSekirun)
 
